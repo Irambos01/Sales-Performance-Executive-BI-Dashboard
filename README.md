@@ -93,7 +93,7 @@ Power BI Dashboard
         ↓
 Business Insights & Decision Support
 
----
+</>
 ## Database Exploration
 
 The initial stage focused on understanding the structure and quality of the transactional database.
