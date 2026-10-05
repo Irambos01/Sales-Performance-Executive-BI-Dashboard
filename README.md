@@ -96,11 +96,6 @@ Business Insights & Decision Support
 
 ---
 
-## Step 2F — Database Exploration
-
-Now add:
-
-```markdown
 ## Database Exploration
 
 The initial stage focused on understanding the structure and quality of the transactional database.
