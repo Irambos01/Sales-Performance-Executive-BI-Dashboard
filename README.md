@@ -311,3 +311,90 @@ Instead of relying on raw transaction records, decision-makers can use the dashb
 
 The solution provides a foundation for more advanced analysis such as customer segmentation, sales forecasting, product profitability analysis, and territory-level performance optimization.
 
+## Repository Structure
+
+```text
+AdventureWorks-Sales-Analytics/
+│
+├── README.md
+│
+├── SQL/
+│   ├── 01_Data_Exploration.sql
+│   ├── 02_Business_KPIs.sql
+│   ├── 03_Product_Analysis.sql
+│   ├── 04_Customer_Analysis.sql
+│   ├── 05_Territory_Analysis.sql
+│   ├── 06_Time_Series_Analysis.sql
+│   ├── 07_Advanced_SQL_Analysis.sql
+│   └── 08_Monthly_Trend_LAG.sql
+│
+├── PowerBI/
+│   └── AdventureWorks_Sales_Analytics.pbix
+│
+├── Screenshots/
+│   └── Dashboard and project workflow screenshots
+│
+└── Documentation/
+
+```
+## Power BI Report
+
+The Power BI Desktop report is available in the `PowerBI` folder.
+
+The `.pbix` file contains the analytical model, DAX measures, interactive visuals, slicers, and executive dashboard.
+
+> **Note:** GitHub does not render `.pbix` files directly in the browser. Download the file and open it using Microsoft Power BI Desktop.
+
+## Skills Demonstrated
+
+### Data & SQL
+
+- SQL Server
+- T-SQL
+- Data exploration
+- Data validation
+- Joins
+- Aggregations
+- Subqueries
+- CTEs
+- CASE expressions
+- Window functions
+- Ranking
+- Time-series analysis
+
+### Data Transformation & Modeling
+
+- Power Query
+- Data cleaning
+- Data transformation
+- Star-schema modeling
+- Fact and dimension design
+- Relationship management
+
+### Business Intelligence
+
+- Power BI
+- DAX
+- KPI development
+- Interactive dashboards
+- Business reporting
+- Data visualization
+- Executive reporting
+
+### Analytical Thinking
+
+- Business question formulation
+- Performance analysis
+- Customer analysis
+- Product analysis
+- Territory analysis
+- Trend analysis
+- Translating transactional data into decision-support insights
+
+## Conclusion
+
+This project demonstrates an end-to-end approach to business intelligence, from transactional database exploration and SQL analysis to data transformation, analytical modeling, DAX development, and executive reporting.
+
+The solution shows how technical data skills can be combined with business-oriented thinking to transform raw transactional data into actionable information for decision-making.
+
+The project also provides a foundation for extending the analysis into areas such as customer segmentation, forecasting, profitability analysis, and advanced performance optimization.
