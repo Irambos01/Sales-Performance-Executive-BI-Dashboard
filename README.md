@@ -224,4 +224,19 @@ Key transformations included:
 - Maintaining a clean separation between transactional data and analytical dimensions
 
 The transformations were designed to produce a model that was structured for reporting rather than simply reproducing the source database.
+ ## DAX Measures
 
+DAX measures were created to provide reusable business calculations within the Power BI model.
+
+Key measures included:
+
+- Total Sales
+- Total Quantity
+- Total Orders
+- Average Order Value
+- Unique Customers
+- Unique Products
+- Previous-Year Sales
+- Year-over-Year Sales Performance
+
+These measures were used across KPI cards, charts, and interactive report elements.
