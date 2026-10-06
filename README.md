@@ -5,7 +5,7 @@
 An end-to-end sales analytics solution transforming transactional data into business insights using SQL Server, T-SQL, Power Query, DAX, and Power BI.
 
 [![AdventureWorks Executive Dashboard](Screenshots/05_BI_Dashboard 2013.png)](https://github.com/Irambos01/Sales-Performance-Executive-BI-Dashboard/blob/main/Screenshots/05_BI_Dashboard_2013.PNG)
-![Power BI Executive Dashboard](Screenshots/05_BI_Dashboard 2013.png)
+![Power BI Executive Dashboard](Screenshots/05_BI_Dashboard_2013.png)
 
 ---
 
