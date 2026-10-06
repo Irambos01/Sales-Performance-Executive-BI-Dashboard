@@ -271,3 +271,43 @@ Interactive slicers allow users to analyze the dashboard by:
 - Product Category
 - Product Subcategory
 - Territory
+
+## Key Business Insights
+
+The dashboard provides several useful perspectives on sales performance.
+
+### Product Performance
+
+Bikes represent the dominant product category in the overall sales mix, making them a major contributor to total revenue.
+
+### Territory Performance
+
+Sales performance varies across territories, allowing management to identify stronger and weaker geographic markets.
+
+### Product Concentration
+
+The Top 10 Selling Products view highlights the products contributing most significantly to revenue and provides a basis for further product-level investigation.
+
+### Sales Trends
+
+The monthly sales view makes changes in sales activity visible across time and supports the identification of periods of stronger or weaker performance.
+
+### Interactive Analysis
+
+The combination of KPI cards, charts, and slicers allows users to move from a high-level overview to more focused analysis by year, category, subcategory, and territory.
+
+## Business Value
+
+The project demonstrates how transactional data can be transformed into a practical business intelligence solution.
+
+Instead of relying on raw transaction records, decision-makers can use the dashboard to:
+
+- Monitor overall sales performance
+- Identify important customers and products
+- Compare territory performance
+- Track sales trends over time
+- Filter performance by business dimensions
+- Investigate areas requiring further analysis
+
+The solution provides a foundation for more advanced analysis such as customer segmentation, sales forecasting, product profitability analysis, and territory-level performance optimization.
+
