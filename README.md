@@ -240,3 +240,34 @@ Key measures included:
 - Year-over-Year Sales Performance
 
 These measures were used across KPI cards, charts, and interactive report elements.
+
+## Executive Dashboard
+
+The final Power BI dashboard provides an interactive executive view of sales performance.
+
+### Executive KPIs
+
+The dashboard presents six high-level KPIs:
+
+- **Total Sales:** $109.8M
+- **Total Quantity:** 275K
+- **Total Orders:** 31,465
+- **Average Order Value:** $3.49K
+- **Unique Customers:** 19,119
+- **Unique Products:** 266
+
+### Dashboard Visuals
+
+The report includes:
+
+- **Monthly Sales Pattern** — tracks changes in sales performance over time
+- **Sales by Category** — compares revenue contribution across product categories
+- **Sales by Territory** — compares sales performance across territories
+- **Top 10 Selling Products** — highlights the products contributing most to sales
+
+Interactive slicers allow users to analyze the dashboard by:
+
+- Year
+- Product Category
+- Product Subcategory
+- Territory
