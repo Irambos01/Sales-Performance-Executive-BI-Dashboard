@@ -108,3 +108,87 @@ Activities included:
 - Understanding the difference between order-level and transaction-level data
 
 SQL Server Management Studio was used as the primary environment for database exploration and analysis.
+
+## SQL Business Analysis
+
+SQL Server was used to investigate the transactional data and answer business-oriented questions across sales, customers, products, territories, and time.
+
+The analysis included:
+
+- Core sales KPIs
+- Customer revenue and order analysis
+- Product and category performance
+- Territory performance
+- Annual and monthly sales trends
+- Top-performing customers and products
+
+The SQL analysis was organized into eight files covering progressively more advanced analytical techniques.
+
+### Key SQL Techniques
+
+The project demonstrates practical T-SQL techniques including:
+
+- `SELECT`, `WHERE`, `ORDER BY`, and `TOP`
+- Aggregations with `SUM`, `COUNT`, and `AVG`
+- `GROUP BY` and `HAVING`
+- `INNER JOIN` and `LEFT JOIN`
+- Date and string functions
+- `CASE` expressions
+- Subqueries
+- Common Table Expressions (CTEs)
+- `CROSS JOIN`
+- Window functions
+- `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`
+- `PARTITION BY`
+- Running totals
+- Moving averages
+- `LAG()` for period-over-period analysis
+
+### Business Questions
+
+Examples of questions addressed through SQL include:
+
+- What is the total sales revenue?
+- Which customers generate the highest revenue?
+- Which customers perform above the average customer revenue?
+- Which products generate the most revenue?
+- Which product categories contribute the most sales?
+- Which territories generate the highest revenue?
+- Who are the top customers within each territory?
+- How does monthly revenue change over time?
+- What is the previous month's revenue?
+- What is the monthly revenue growth rate?
+- What are the top-performing products within each category?
+
+## Advanced SQL Analysis
+
+The analysis progressed beyond basic querying to more advanced analytical techniques.
+
+### Common Table Expressions
+
+CTEs were used to create reusable intermediate datasets for customer, product, and monthly sales analysis.
+
+### Window Functions
+
+Window functions were used to perform calculations while retaining the underlying rows, including:
+
+- Customer and product ranking
+- Territory-level ranking
+- Running revenue totals
+- Moving averages
+- Previous-period comparisons
+
+### Ranking
+
+`ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()` were used to identify top-performing customers and products within specific groups.
+
+### Time-Series Analysis
+
+Monthly sales were analyzed using CTEs and window functions to calculate:
+
+- Running totals
+- Three-month moving averages
+- Previous-month revenue
+- Monthly revenue growth
+
+
