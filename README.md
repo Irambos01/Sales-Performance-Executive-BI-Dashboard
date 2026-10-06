@@ -208,7 +208,7 @@ DimCustomer —— FactSales —— DimProduct
                        |
                  DimTerritory
 
-```markdown
+```
 ## Power Query Transformations
 
 Power Query was used to prepare the source data for analytical modeling.
