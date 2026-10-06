@@ -191,4 +191,37 @@ Monthly sales were analyzed using CTEs and window functions to calculate:
 - Previous-month revenue
 - Monthly revenue growth
 
+## Data Modeling
+
+The transactional data was transformed into a structured analytical model in Power BI.
+
+A star-schema approach was used, with `FactSales` as the central fact table and supporting dimension tables for analysis.
+
+### Model Structure
+
+```text
+                    DimDate
+                       |
+                       |
+DimCustomer —— FactSales —— DimProduct
+                       |
+                       |
+                 DimTerritory
+
+```markdown
+## Power Query Transformations
+
+Power Query was used to prepare the source data for analytical modeling.
+
+Key transformations included:
+
+- Selecting the required columns
+- Setting appropriate data types
+- Creating the customer dimension from customer and person data
+- Merging related source tables
+- Creating a consolidated customer name
+- Preparing dimension tables for the Power BI model
+- Maintaining a clean separation between transactional data and analytical dimensions
+
+The transformations were designed to produce a model that was structured for reporting rather than simply reproducing the source database.
 
